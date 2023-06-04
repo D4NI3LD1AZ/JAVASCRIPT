@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Información de la Palabra</title>
+    <link rel="stylesheet" type="text/css" href="../Assets/CSS/style_reto7.css">
+</head>
+
+<body>
+  <div>
+  <h2>Información de la Palabra</h2>
+
+  <label for="palabra">Palabra:</label>
+  <input type="text" id="palabra">
+  <br>
+  <label for="opcion">Selecciona una opción:</label>
+  <select id="opcion">
+    <option value="longitud">Longitud de la palabra</option>
+    
+   
+<option value="mayusculas">Palabra en mayúsculas</option>
+    <option value="minusculas">Palabra en minúsculas</option>
+    <option value="primer_caracter">Primer carácter de la palabra</option>
+  </select>
+  <br>
+<button onclick="obtenerInformacion()">Obtener Información</button>
+  </div>
+<script src="../Assets/JAVA/reto7.js"></script>
+</body>
+</html>

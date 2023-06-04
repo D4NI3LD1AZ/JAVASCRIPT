@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(66, 96, 121, 0.548);
+}
+div{
+    border-radius: 5px;
+    margin-top: 10%;
+    background-color: darkslategrey;
+    margin-left: 35%;
+    width: 30%;
+    height: 30%;
+    text-align:center;
+    padding: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 5px white;
+}
+
+select{
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 10px;
+    background-color: aquamarine;
+    width: 19%;
+    height: 19%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+button:hover{
+    background-color: aqua;
+}
